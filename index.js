@@ -3,8 +3,6 @@
 const _ = require('lodash')
 const jsonPath = require('json-path');
 
-
-const ARRAY_IDENTIFIER = '[*]'
 const PATH_SEPARATOR = '/'
 
 module.exports = function(json, paths) {
