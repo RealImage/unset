@@ -4,15 +4,21 @@
     "url": "https://github.com/pvsrivathsa/unset",
     "type": "github"
   },
+  "author": [
+    {
+      "name": "Srivathsa PV",
+      "email": "pv.srivathsa@gmail.com"
+    }
+  ],
   "private": false,
   "version": "0.0.1",
   "dependencies": {
     "json-path": "0.1.3",
-    "lodash": "4.14.1",
+    "lodash": "4.14.1"
   },
   "description": "A simple method to unset nested attributes from a JSON object.",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha --recursive spec/unit",
+    "test": "node_modules/mocha/bin/mocha --recursive spec/unit"
   },
   "devDependencies": {
     "chai": "^3.5.0",

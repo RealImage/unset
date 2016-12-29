@@ -1,0 +1,10 @@
+node_modules/
+coverage
+Dockerfile
+docker-compose.yml
+*.env
+.dockerignore
+.DS_Store
+npm-debug.log
+logs/sqs.log
+.idea/*
